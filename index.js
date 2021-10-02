@@ -27,4 +27,4 @@ bot.readyCommand({
     code: `$log[Ready on $userTag[$clientID]]` //Example Ready on Client
 })
 
-bot.loadCommands(`./handler/`)
+bot.loadCommands(`./commands/`) //Create commands Folder
