@@ -26,5 +26,3 @@ bot.readyCommand({
     channel: "", //You can use this or not
     code: `$log[Ready on $userTag[$clientID]]` //Example Ready on Client
 })
-
-bot.loadCommands(`./commands/`) //Create commands Folder
